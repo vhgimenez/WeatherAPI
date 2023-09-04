@@ -126,3 +126,58 @@
       transform: rotate(360deg);
     }
   }
+
+  @media screen and (max-width: 768px) {
+
+    .container {
+      max-width: 250px;
+    }
+
+    .form h3 {
+      font-size: 14px;
+      text-align: center;
+    }
+
+    .form button img {
+      width: 8px;
+      height: 8px;
+    }
+
+    .form input {
+      padding: 0.5rem;
+    }
+
+    .form button {
+      padding: 0.5rem;
+      min-width: 50px;
+    }
+
+    #weatherData h2 {
+        font-size: 14px;
+    }
+
+    #weatherData h2 i {
+      font-size: 12px;
+    }
+
+    #temperature {
+      font-size: 35px;
+    }
+
+    #descriptionContainer {
+      font-size: 14px;
+    }
+
+    #detailsContainer #umidity {
+      font-size: 14px;
+    }
+
+    #detailsContainer #wind {
+      font-size: 14px;
+    }
+
+    #errorMessage p {
+      font-size: 12px;
+    }
+
+  }
