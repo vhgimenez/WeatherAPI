@@ -1,5 +1,5 @@
 
-# Mindgame
+# Weather API
 
 Projeto desenvolvido com html, css, e javascript utilizando uma api para descobrir o clima de alguma cidade
 ## Ferramentas Utilizadas
